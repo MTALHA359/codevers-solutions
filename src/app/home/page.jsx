@@ -679,33 +679,7 @@ const LuxurySoftwareHomepage = () => {
       {/* Glass morphism overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-white/5 via-transparent to-white/5 backdrop-blur-sm"></div>
       
-      {/* Navigation */}
-      <nav className="relative z-10 flex justify-between items-center p-8 backdrop-blur-md bg-black/20 border-b border-white/10">
-        <div className="flex items-center space-x-3">
-          <div className="w-10 h-10 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-xl">S</span>
-          </div>
-          <span className="text-2xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-            SoftwareLux
-          </span>
-        </div>
-        
-        <div className="hidden md:flex space-x-8">
-          {['Services', 'Portfolio', 'About', 'Contact'].map((item) => (
-            <a
-              key={item}
-              href="#"
-              className="text-white/80 hover:text-white transition-all duration-300 hover:scale-110 font-medium"
-            >
-              {item}
-            </a>
-          ))}
-        </div>
-        
-        <button className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-cyan-500/25">
-          Get Started
-        </button>
-      </nav>
+     
       
       {/* Hero Section */}
       <div className="relative z-10 flex items-center justify-center min-h-screen pt-20">

@@ -128,8 +128,8 @@ const LuxuryContactPage = () => {
       id: 2,
       title: "Call Us",
       icon: "📞",
-      primary: "+1 (555) 123-4567",
-      secondary: "+1 (555) 123-4568",
+      primary: "+92 3269909514",
+      secondary: "+92 3413912120",
       description: "Available Mon-Fri 9AM-6PM EST",
       gradient: "from-green-500 to-blue-600"
     },
