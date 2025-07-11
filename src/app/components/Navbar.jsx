@@ -1,5 +1,3 @@
-
-
 'use client';
 
 import { useState } from 'react';
@@ -26,6 +24,7 @@ export default function Navbar() {
         {/* Desktop Links */}
         <nav className="hidden md:flex space-x-10">
                     <Link href="/Home" className="text-white/80 hover:text-white transition font-medium">Home</Link>
+
           <Link href="/services" className="text-white/80 hover:text-white transition font-medium">Services</Link>
           <Link href="/portfolio" className="text-white/80 hover:text-white transition font-medium">Portfolio</Link>
           <Link href="/about" className="text-white/80 hover:text-white transition font-medium">About</Link>
@@ -52,8 +51,8 @@ export default function Navbar() {
       {/* Mobile Dropdown Menu */}
       {isOpen && (
         <div className="md:hidden px-6 pb-6 space-y-4 bg-gradient-to-r from-[#0a0a0a] via-[#150035] to-[#1e0038] border-t border-white/10">
-                    <Link href="/Home" className="block text-white/80 hover:text-white font-medium" onClick={() => setIsOpen(false)}>Home</Link>
-          <Link href="/services" className="block text-white/80 hover:text-white font-medium" onClick={() => setIsOpen(false)}>Services</Link>
+          <Link href="/Home" className="block text-white/80 hover:text-white font-medium" onClick={() => setIsOpen(false)}>Home</Link>
+
           <Link href="/portfolio" className="block text-white/80 hover:text-white font-medium" onClick={() => setIsOpen(false)}>Portfolio</Link>
           <Link href="/about" className="block text-white/80 hover:text-white font-medium" onClick={() => setIsOpen(false)}>About</Link>
           <Link href="/contact" className="block text-white/80 hover:text-white font-medium" onClick={() => setIsOpen(false)}>Contact</Link>
@@ -68,4 +67,3 @@ export default function Navbar() {
     </header>
   );
 }
-
